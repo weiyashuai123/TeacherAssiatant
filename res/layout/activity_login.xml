@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2016.icecream 魏亚帅 
+    Inc. All rights reserved.-->
+    <!--登录界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#eeeeee">
+    
+    <ImageView 
+        android:layout_marginTop="50dp"
+        android:id="@+id/imgView_loginpage_userImg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/user_icon"/>
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/input_login"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <CheckBox 
+            android:id="@+id/chk_loginpage_rememberPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"
+            android:textColor="#888888"/>
+    </LinearLayout>
+    
+    <Button 
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bluebtn_normal"
+        android:id="@+id/btn_login"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="登 录"/>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView 
+            android:id="@+id/txt_loginpage_sign"
+            android:paddingRight="15dp"
+            android:paddingBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:text="新用户注册"
+            android:textColor="#2995f5"/>
+        <TextView 
+            android:id="@+id/txt_loginpage_forgetpass"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="15dp"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:textColor="#2995f5"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+    
+
+</LinearLayout>
