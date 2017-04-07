@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BaseBlue">#2995f5</color>
+    <color name="bg_layout_gray">#eeeeee</color>
+    <color name="bg_layout_blue">#0078D7</color>
+    <color name="bg_alpha_blue">#4CA0E3</color>
+    <color name="alaph_white">#EDF5FC</color>
+    <color name="normal_White">#ffffff</color>
+    <color name="deep_blue">#2339DA</color>
+    <color name="title_blue">#2891EF</color>
+    <color name="icon_blue">#1296db</color>
+    <color name="icon_gray">#8a8a8a</color>
+    <color name="text_orange">#FF4400</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txt_classname_recordlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="群组名"
+        android:textSize="20sp" 
+        android:maxLines="1"/>
+
+    <TextView 
+        android:id="@+id/txt_simple_recordlist"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="签到详情"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLines="3"/>
+    <TextView 
+        android:id="@+id/txt_date_recordlist"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016-12-3 15:54:02"/>
+
+</LinearLayout>

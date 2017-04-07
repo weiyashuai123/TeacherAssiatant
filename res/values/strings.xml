@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">教师助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_login">登 录</string>
+    <string name="label_new_user">新用户注册</string>
+    <string name="btn_register">注     册</string>
+    <string name="label_remember_password">记住密码</string>
+    <string name="label_forget_password">忘记密码?</string>
+    <string name="hint_type_username">用户名</string>
+    <string name="hint_type_password">密码</string>
+    <string name="hint_type_passagain">确认密码</string>
+    <string name="hint_type_phone">手机号</string>
+    <string name="workteam_name">Ice-cream</string>
+    <string name="label_btn_bcak">返回</string>
+    <string name="title_register">注册</string>
+    <string name="title_login">登录</string>
+    <string name="call_name">点名</string>
+    <string name="question">答疑</string>
+    <string name="job">布置作业</string>
+    <string name="tips_callname">Tips:点击右上角加号建立群组</string>
+    <string name="btn_call_name">开始点名</string>
+    <string name="btn_end_call">结束点名</string>
+    <string name="txt_console">信息记录</string>
+    
+</resources>

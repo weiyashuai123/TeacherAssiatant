@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 注册界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BaseBlue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/title_blue"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_back_register"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/txt_title_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/title_register"
+            android:textColor="@color/alaph_white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!--
+         <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_add" />
+        -->
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_titlecontent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_input_register"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_username_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_edt_regpage"
+            android:hint="@string/hint_type_username"
+            android:padding="10dp"
+            android:textColor="@color/bg_layout_blue" />
+
+        <EditText
+            android:id="@+id/edt_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_edt_regpage"
+            android:hint="@string/hint_type_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/bg_layout_blue" />
+
+        <EditText
+            android:id="@+id/edt_passagain_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_edt_regpage"
+            android:hint="@string/hint_type_passagain"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/bg_layout_blue" />
+
+        <EditText
+            android:id="@+id/edt_phone_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_edt_regpage"
+            android:hint="@string/hint_type_phone"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/bg_layout_blue" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register_register"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-25dp"
+        android:alpha="0.9"
+        android:background="@drawable/bg_whitebtn_normal"
+        android:text="@string/btn_register"
+        android:textColor="@color/bg_layout_blue"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/alaph_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/workteam_name"
+            android:textColor="@color/alaph_white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@color/alaph_white" />
+    </LinearLayout>
+
+</LinearLayout>

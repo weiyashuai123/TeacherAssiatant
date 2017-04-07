@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teacherassistant.MainActivity" >
+
+    <item
+        android:id="@+id/add_class_MainMenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="建立群组"/>
+    <item
+        android:id="@+id/check_namelist_MainMenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="查看签到名单"/>
+    <item
+        android:id="@+id/history_MainMenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="历史记录"/>
+
+</menu>

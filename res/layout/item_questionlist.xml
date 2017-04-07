@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txt_qname_questionlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="问题名称"
+        android:textSize="20sp" 
+        android:maxLines="1"/>
+
+    <TextView 
+        android:id="@+id/txt_qdescript_questionlist"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="问题描述\n问题描述\n问题描述"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLines="3"/>
+    <TextView 
+        android:id="@+id/txt_date_questionlist"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016-12-3 15:54:02"/>
+    <LinearLayout 
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_user_question"
+            android:layout_width="18dp"
+            android:layout_height="18dp"/>
+        <TextView 
+            android:id="@+id/txt_qproposer_questionlist"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="username"/>
+        <TextView 
+            android:textColor="@color/deep_blue"
+            android:id="@+id/txt_state_questionlist"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="已解决"
+           />
+        <ImageView 
+            android:src="@drawable/ic_answer"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            />
+        <TextView 
+            android:id="@+id/txt_qanswernum_questionlist"
+            android:gravity="center_vertical"
+            android:layout_width="24dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="20dp"
+            android:text="0"/>
+    </LinearLayout>
+
+</LinearLayout>
